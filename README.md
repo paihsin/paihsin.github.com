@@ -412,7 +412,7 @@ label {
 	  var myAudio=document.getElementById("myAudio");
       myAudio.volume=document.getElementById("soundRange").value/100;
       var nowMusicNum=0;
-	  var totalNum=31;
+	  var totalNum=32;
 	  var totalNumen=21;
 	  var totalNumjp=15;
       //default play first song 
