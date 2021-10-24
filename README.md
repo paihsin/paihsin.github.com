@@ -401,8 +401,8 @@ label {
 <script type="text/javascript" src="jQuery/jquery-1.6.4.min.js"></script>
 <script type="text/javascript">
    $(function(){
-     var musicList=["LOCAL.mp3","走到飛.mp3","每天都是生日.mp3","幹大事.mp3","差不多姑娘.mp3","消愁.mp3","像我這樣的人.mp3","你敢不敢.mp3","小右你是我的女朋友.mp3","Lydia.mp3","月牙灣.mp3","阿拉斯加海湾.mp3","那些年.mp3","時間煮雨.mp3","指望.mp3","Dear Life.mp3","浮誇.mp3","途中.mp3","因為愛情.mp3","認真的雪.mp3","牽心萬苦.mp3","於是長大了以後.mp3","忍者.mp3","夜曲.mp3","可愛女人.mp3","摩天動物園.mp3","佛系少女.mp3","隱形的翅膀.mp3","熱愛105°C的你.mp3","越來越好玩.mp3","沒了妳.mp3"沒了妳.mp3"];
-      var musicStar=["玖壹壹","走到飛","187","頑童MJ116","G.E.M.鄧紫棋","毛不易","毛不易","李芷婷","小右","飛兒樂團","飛兒樂團","菲道爾","胡夏","郁可為","郁可為","郁可為","陳奕迅","黃美珍","陳奕迅","薛之謙","謝和弦","謝和弦","周杰倫","周杰倫","周杰倫","鄧紫棋","馮提莫","張紹涵","阿肆","PYC","高爾軒",高爾軒"];
+     var musicList=["LOCAL.mp3","走到飛.mp3","每天都是生日.mp3","幹大事.mp3","差不多姑娘.mp3","消愁.mp3","像我這樣的人.mp3","你敢不敢.mp3","小右你是我的女朋友.mp3","Lydia.mp3","月牙灣.mp3","阿拉斯加海湾.mp3","那些年.mp3","時間煮雨.mp3","指望.mp3","Dear Life.mp3","浮誇.mp3","途中.mp3","因為愛情.mp3","認真的雪.mp3","牽心萬苦.mp3","於是長大了以後.mp3","忍者.mp3","夜曲.mp3","可愛女人.mp3","摩天動物園.mp3","佛系少女.mp3","隱形的翅膀.mp3","熱愛105°C的你.mp3","越來越好玩.mp3","沒了妳.mp3"];
+      var musicStar=["玖壹壹","走到飛","187","頑童MJ116","G.E.M.鄧紫棋","毛不易","毛不易","李芷婷","小右","飛兒樂團","飛兒樂團","菲道爾","胡夏","郁可為","郁可為","郁可為","陳奕迅","黃美珍","陳奕迅","薛之謙","謝和弦","謝和弦","周杰倫","周杰倫","周杰倫","鄧紫棋","馮提莫","張紹涵","阿肆","PYC","高爾軒"];
          var musicListen=["Forever After All.mp3","Cardigan.mp3","Memories.mp3","Shallow.mp3","YOU&I.mp3","Lost Cause.mp3","bad guy.mp3","lovely.mp3","Breathless.mp3","How Far I'll Go.mp3","Speechless.mp3","Flashlight.mp3","Skyscraper.mp3","Firework.mp3","Titanium.mp3","I Wrote a Song Using Only Hate Comments 2.mp3","Peaches.mp3","Hold On.mp3","Yummy.mp3","Lonely.mp3","Intentions.mp3","Purpose.mp3"];
       var musicStaren=["Luke Combs","Taylor Swift","Maroon 5","Lady Gaga,Bradley Cooper","J.R.A","Billie Eilish","Billie Eilish","Billie Eilish,Khalid","Shayne Ward","Alessia Cara","Naomi Scott","Jessie J","Demi Lovato","Madilyn Bailey","Madilyn Bailey","Madilyn Bailey","Justin Bieber","Justin Bieber","Justin Bieber","Justin Bieber","Justin Bieber","Justin Bieber"];
 	  var musicListjp=["us.mp3","Prover.mp3","Who I Am.mp3","Tell me.mp3","Drown.mp3","The Love We've Made.mp3","夜に駆ける.mp3","群青.mp3","怪物.mp3","シャルル.mp3","蝶々結び.mp3","Ref rain.mp3","Rokutouseino Yoru.mp3","さよならの今日に.mp3","Remember the Days We're Talking Rubbish in the Twilight.mp3","貓.mp3"];
@@ -412,7 +412,7 @@ label {
 	  var myAudio=document.getElementById("myAudio");
       myAudio.volume=document.getElementById("soundRange").value/100;
       var nowMusicNum=0;
-	  var totalNum=32;
+	  var totalNum=31;
 	  var totalNumen=21;
 	  var totalNumjp=15;
       //default play first song 
